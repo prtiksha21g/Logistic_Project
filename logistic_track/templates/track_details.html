@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block title %}Track Details{% endblock %}
+{% block content %}
+<br>
+<h1>Location Details</h1>
+<ul>
+    <li>Country:{{ data.country }}</li>
+    <li>City:{{ data.city }}</li>
+    <li>latitude:{{ data.lat }}</li>
+    <li>longitude:{{ data.lon }}</li>
+</ul>
+{% endblock %}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block title %}Track_trip{% endblock %}
+{% block content %}
+<br>
+<form target="#" method="post">
+<h2>Trip ID :&nbsp;<input type="text" name="trip_id"></h2>
+<br><hr>
+<h2>Truck NO :&nbsp;<input type="text" name="truck_no"></h2>
+<br><hr>
+<h2>Track URL :&nbsp;<input type="text" name="track_url"></h2>
+<br><hr>{% csrf_token %}
+    <button value="reset" name="reset">Reset</button> &nbsp;&nbsp;&nbsp;&nbsp;<button value="submit" name="submit">Submit</button>
+</form>
+{% endblock %}
