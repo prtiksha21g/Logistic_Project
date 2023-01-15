@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-^)1v4a6&=#(#1o5%h%r@_q8u!07u1iv)#6bx(^k7$@ob!!cf+$'
-
+ENCRYPT_KEY="b'1HQCMtUOi5iVcWmwDf8IdZ2kAiSv-OslvKU24MUWAm8='"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'logistic_track',
         'USER':'root',
-        'PASSWORD':'Omkar@27',
+        'PASSWORD':'happy',
     }
 }
 
